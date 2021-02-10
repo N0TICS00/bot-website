@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>N0TICS</title>
+  <link rel="shortcut icon" href="images/logo_server.ico">
+
+  <!-- GOOGLE FONT -->
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap" rel="stylesheet">
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+  <!-- SASS -->
+  <sass source/stylesheets/index.scss build/stylesheets/index.css></sass>
+
+  <!-- FONT AWESOME -->
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+
+
+<body>
+
+  <section id="title">
+
+    <!-- Nav Bar -->
+    <div class="container container-fluid">
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand logo" href="index.html">N0TICS</a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="navbarTogglerDemo01" style="">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Comandi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">Domande frequenti</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class="col-lg-6 ">
+          <h1 class="text-invite">Invita il bot nel tuo server discord!</h1>
+          <a href="https://discord.com/api/oauth2/authorize?client_id=779698037382709248&permissions=8&scope=bot">
+            <button class="btn btn-outline-light">
+              <i class="fab fa-discord">
+              </i>
+              Link d'invito
+            </button>
+          </a>
+        </div>
+        <div class="col-lg-6 ">
+          <img class="title-image" src="images/Screenshot (418).png" alt="Immagine del bot">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+      <div class="command-description col-lg-4">
+        <i class="fas fa-check-circle fa-5x icon"></i>
+        <h3>Comandi di moderazione.</h3>
+        <p>Potrai bannare e espellere i membri solo con i comandi!</p>
+
+      </div>
+      <div class="command-description col-lg-4">
+        <i class="fas fa-heart fa-5x icon"></i>
+        <h3>Comandi per divertimento.</h3>
+        <p>Ci sono tanti comandi per divertirsi, come "npat" , "nbarzellette" , "nkiss" , "nhug" e tanti altri !</p>
+
+      </div>
+      <div class="command-description col-lg-4">
+        <i class="fas fa-gift fa-5x icon"></i>
+        <h3>Comandi per i sondaggi e giveaway.</h3>
+        <p>Con il comando "npoll" potrai creare dei sondaggi , con il comando "ngive" potrai creare dei giveaway!</p>
+
+      </div>
+
+    </div>
+
+
+
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+
+
+    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="false" data-bs-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>Comando Giveaway. Inserisci la scadenza, inserisci il premio ... e il gioco è fatto!</h2>
+          <img class="img-testimonial give" src="images/Screenshot (433).png" alt="Comando Giveaway">
+        </div>
+        <div class="carousel-item">
+          <h2>Comando Poll. Inserisci il sondaggio, inserisci le due alternative ... e il gioco è fatto!</h2>
+          <img class="img-testimonial" src="images/Screenshot (434).png" alt="Comando Poll">
+        </div>
+        <div class="carousel-item">
+          <h2>Comando Hug. Inserisci il nickname del giocatore ... e potrai fargli sentire il tuo affetto!</h2>
+          <img src="images/Screenshot (435).png" alt="Comando Hug">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+
+
+  </section>
+
+
+
+  <!-- faq -->
+
+  <section id="faq">
+    <h1>Domande Frequenti</h1>
+    <div class="card-group">
+      <div class="faq-card col-lg-4 col-md-6 col-sm-12">
+        <div class="card">
+          <div class="card-header header how">
+            <h3>Come posso invitare il bot nel mio server discord?</h3>
+          </div>
+          <div class="card-body body">
+            <p>Per invitarlo devi essere un amministratore del server e avere <a href="https://discord.com/oauth2/authorize?client_id=779698037382709248&permissions=8&scope=bot"> il link d'invito</a>.</p>
+          </div>
+        </div>
+      </div>
+      <div class="faq-card col-lg-4 col-md-6 col-sm-12">
+        <div class="card">
+          <div class="card-header header">
+            <h3>Perchè il bot è offline ?</h3>
+          </div>
+          <div class="card-body body">
+            <p>Certe volte il bot ha bisogno di essere aggiornato. Una trentina di minuti e sarà di nuovo online!</p>
+          </div>
+        </div>
+      </div>
+      <div class="faq-card col-lg-4 col-md-12 col-sm-12">
+        <div class="card">
+          <div class="card-header header">
+            <h3>I comandi non funzionano.</h3>
+          </div>
+          <div class="card-body body">
+            <p>Per ogni comando dovrai mettere il prefisso "n" , per vedere quali comandi ci sono basta digitare "nhelp"!</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3>Hackerando il pentagono!</h3>
+    <p class="thank">Grazie per aver letto fin qui! Ti sono grato. Spero mi inviterai nel tuo server!</p>
+    <a href="https://discord.com/api/oauth2/authorize?client_id=779698037382709248&permissions=8&scope=bot">
+      <button class="btn btn-lg btn-dark">
+        <i class="fab fa-discord">
+        </i>
+        Link d'invito
+      </button>
+    </a>
+
+
+  </section>
+
+
+  <!-- Footer -->
+  <footer id="footer">
+    <a href="mailto:notics.pro@gmail.com" class="icon icon-foot"><i class="fas fa-envelope fa-2x"></i></a>
+    <a href="https://github.com/N0TICS00" class="icon icon-foot"><i class="fab fa-github fa-2x"></i></a>
+    <a href="https://www.reddit.com/user/N0TICS0" class="icon icon-foot"><i class="fab fa-reddit fa-2x"></i></a>
+    <p>© Copyright 2021 N0TICS</p>
+
+  </footer>
+
+
+
+
+</body>
+
+</html>
